@@ -1,0 +1,32 @@
+{
+  "name": "blog-app",
+  "version": "1.0.0",
+  "description": "Blog API with Mongoose",
+  "main": "config.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnh242/Blog-with-Mongoose-model.git"
+  },
+  "keywords": [
+    "node",
+    "mongo",
+    "mongoose"
+  ],
+  "author": "Tina Hoang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nnh242/Blog-with-Mongoose-model/issues"
+  },
+  "homepage": "https://github.com/nnh242/Blog-with-Mongoose-model#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.9",
+    "morgan": "^1.8.2",
+    "uuid": "^3.1.0"
+  }
+}
